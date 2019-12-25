@@ -8,7 +8,7 @@ This paper assumes that the output of a neural network is drawn from a Gaussian 
 
 `regression2.py` splits the vector at the very beginning, i.e. two networks with same structure but different parameters separately predict mu and sigma. The predicted results are shown in `Figure2_split-at-begin.png`.
 
-I guess that regression.py works since mu and sigma are both functions of the output, therefore they may share some features. While in regression2.py, we see mu and sigma as two variables and train them separetely. Two results show no significant difference.
+I guess that `regression.py` works since mu and sigma are both functions of the output, therefore they may share some features. While in `regression2.py`, we see mu and sigma as two variables and train them separetely. Two results show no significant difference.
 
 For other networks, I see an example in https://udion.github.io/post/uncertain_deepl/
 
