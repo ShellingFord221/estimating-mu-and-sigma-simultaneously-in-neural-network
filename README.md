@@ -14,4 +14,4 @@ For other networks, I see an example in https://udion.github.io/post/uncertain_d
 
 ![A modified auto-encoder to output mu and sigma](pic/modified_auto-encoder.png)
 
-And a [discussion](https://github.com/hmi88/what/issues/1#issuecomment-568447658) with hmi88. 
+And I also have a [discussion](https://github.com/hmi88/what/issues/1#issuecomment-568447658) with hmi88. 
