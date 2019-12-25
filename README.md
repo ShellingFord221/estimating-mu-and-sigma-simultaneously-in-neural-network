@@ -2,7 +2,7 @@
 
 This repo can be seen as a simple implementation of _Estimating the Mean and Variance of the Target Probability Distribution_, and also a pytorch version of https://colab.research.google.com/github/stoerr/machinelearning-tensorflow/blob/master/published/PredictVariability.ipynb#scrollTo=rBNsC3kFOnt_
 
-This paper assumes that the output of a neural network is drawn from a Gaussian distribution. Therefore, mu and sigma of the output can both seen as functions of the output y, we can directly predict them as two variables.
+This paper assumes that the output of a neural network is drawn from a Gaussian distribution. Therefore, mu and sigma of the output can both be seen as functions of the output y, we can directly predict them as two variables.
 
 `regression.py` splits the vector in the final dense layer. The predicted results of mu and sigma are shown in `Figure1_split-at-dense.png`.
 
